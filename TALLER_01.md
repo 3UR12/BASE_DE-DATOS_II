@@ -80,7 +80,7 @@ Basándonos en los siguientes enunciados, aplique el concepto de normalización:
 ### 2. Desea realizar la normalización 2FN o segunda forma normal de la siguiente tabla.
 ![segunda tabla de pregunta](images/tabla2questions.png)
 
-![Logo del Taller](images/lproblema4.png)
+![Logo del Taller](images/problema4.png)
 
 ### 3. ¿Cuál sería la diferencia entre la 1FN y la 2FN?
 
@@ -88,7 +88,8 @@ Basándonos en los siguientes enunciados, aplique el concepto de normalización:
 
 ### 4. Desea realizar la normalización 3FN o tercera forma normal de la siguiente tabla.
 
-*(Nota: Se necesitaría ver la tabla específica para dar una respuesta detallada)*
+![tabla de pregunta](images/tabla3questions.png)
+![problema 5](images/problema5.png)
 
 ### 5. Si analizando un caso práctico se encontrara en el paso de la 2ª FN, ¿qué debería comprobar usted para seguir normalizando hasta la 3ª FN?
 
@@ -165,9 +166,8 @@ Cita: fecha, hora, motivo.
 
 4. **Dibujar el diagrama entidad-relación correctamente.**  
 *(Diagrama en texto simplificado)*
-Paciente —(1,N)—<>—(1,1)— Cita —(1,1)—<>—(1,N)— Médico
+![problema 6](images/problema6.png)
 
-text
 
 ---
 
