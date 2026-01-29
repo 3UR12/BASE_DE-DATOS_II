@@ -48,7 +48,7 @@ Con base en el siguiente escenario:
 
 3. **Dibuja cómo se vería la cardinalidad usando una de las simbologías explicadas en clase.**  
 **R:**  
-Cliente —(1,1)—<>—(0,N)— Pedido
+![problema2](images/problema2.png)
 
 text
 
@@ -70,14 +70,17 @@ e. Relación N-M.
 Basándonos en los siguientes enunciados, aplique el concepto de normalización:
 
 ### 1. Desea realizar la normalización N1 o primera forma normal (FN) de la siguiente tabla.
+![imagen de pregunta](images/tabla1questions.png)
 
 **¿Cómo lo haría?**
+![Logo del Taller](images/problema3.png)
 
 **R:** Según la norma N1, cada celda debe tener un solo valor y sin grupos repetitivos, en este caso la columna cuentas no sigue esa regla, por ende, se agrega otras filas para que cada una solo ocupe una, el dni se duplica para que la clave primaria se use con la combinación de dni y cuenta.
 
 ### 2. Desea realizar la normalización 2FN o segunda forma normal de la siguiente tabla.
+![segunda tabla de pregunta](images/tabla2questions.png)
 
-*(Nota: Se necesitaría ver la tabla específica para dar una respuesta detallada)*
+![Logo del Taller](images/lproblema4.png)
 
 ### 3. ¿Cuál sería la diferencia entre la 1FN y la 2FN?
 
