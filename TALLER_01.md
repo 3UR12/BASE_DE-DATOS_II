@@ -26,7 +26,7 @@ Una universidad maneja la siguiente información:
 
 4. **Dibuja cómo se vería la cardinalidad usando una de las simbologías explicadas en clase.**  
    **R:**  
-![problema 1](images/problema 1.png)
+![problema 1](images/problema1.png)
 
 text
 
