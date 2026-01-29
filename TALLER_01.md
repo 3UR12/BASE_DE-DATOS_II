@@ -28,7 +28,6 @@ Una universidad maneja la siguiente información:
    **R:**  
 ![problema 1](images/problema1.png)
 
-text
 
 ---
 
