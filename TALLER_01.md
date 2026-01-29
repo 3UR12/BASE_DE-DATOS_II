@@ -1,4 +1,4 @@
-
+![Logo del Taller](images/logo.png)
 # BASES DE DATOS II
 ## TALLER N°1
 
