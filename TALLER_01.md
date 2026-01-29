@@ -62,11 +62,13 @@ Con base en el siguiente escenario:
 ---
 
 ### **🔍 Indique cuáles son los tipos de cardinalidad:**
-a. Relación 1-1.  
+a. Relación 1-1.  ✅
 b. Relación 0-0.  
 c. Relación R-r.  
-d. Relación 1-N.  
-e. Relación N-M.  
+d. Relación 1-N.  ✅
+e. Relación N-M.  ✅
+
+**Respuesta correcta: a, d, e**
 
 **NOTA:** Selección múltiple
 
