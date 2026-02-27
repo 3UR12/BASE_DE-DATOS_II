@@ -1,7 +1,4 @@
 # 📦 1. COMANDOS DOCKER UTILIZADOS
-
-Guardar como: `comandos_docker.txt`
-
 ```bash
 # Descargar la imagen oficial de MariaDB desde Docker Hub
 docker pull mariadb:11
@@ -33,9 +30,6 @@ docker exec -it bd_empresa mariadb -u root -p
 ---
 
 # 🗄️ 2. CREACIÓN DE BASE DE DATOS
-
-Guardar como: `01_creacion_bd.sql`
-
 ```sql
 -- Crear la base de datos del sistema empresarial
 CREATE DATABASE empresa_servicios;
@@ -50,9 +44,6 @@ SELECT DATABASE();
 ---
 
 # 🧱 3. CREACIÓN DE TABLAS (DDL)
-
-Guardar como: `02_ddl_tablas.sql`
-
 ```sql
 -- ============================================
 -- TABLA: user
@@ -152,9 +143,6 @@ CREATE TABLE access_audit (
 ---
 
 # 📥 4. INSERCIÓN DE DATOS (DML)
-
-Guardar como: `03_dml_datos.sql`
-
 ```sql
 -- Insertar usuarios
 INSERT INTO user (first_name,last_name,email,phone,registration_date,status,is_verified) VALUES
@@ -169,15 +157,9 @@ INSERT INTO user (first_name,last_name,email,phone,registration_date,status,is_v
 ('Diego','Ruiz','diego@empresa.com','6009','2024-01-09','ACTIVE',TRUE),
 ('Elena','Morales','elena@empresa.com','6010','2024-01-10','ACTIVE',TRUE);
 ```
-
-*(Puedes seguir agregando los INSERT de servicios, contratos, etc., igual que los ya ejecutaste.)*
-
 ---
 
 # 🔄 5. OPERACIONES CRUD
-
-Guardar como: `04_crud.sql`
-
 ```sql
 -- CREATE: crear nuevo contrato
 INSERT INTO contract (id_user,id_service,start_date,status,auto_renew)
@@ -200,9 +182,6 @@ WHERE id_contract=2;
 ---
 
 # 👁️ 6. CREACIÓN DE VISTAS
-
-Guardar como: `05_vistas.sql`
-
 ```sql
 -- Vista de negocio
 CREATE VIEW vista_negocio_servicios AS
