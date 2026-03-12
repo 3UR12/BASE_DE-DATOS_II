@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+
+  database:
+    image: mariadb:11
+    container_name: expedientes_db
+    restart: always
+
+    environment:
+      MYSQL_ROOT_PASSWORD: root123
+      MYSQL_DATABASE: sistema_expedientes
+
+    ports:
+      - "3307:3306"
+
+    volumes:
+      - db_data:/var/lib/mysql
+
+volumes:
+  db_data:
